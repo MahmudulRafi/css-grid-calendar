@@ -5,20 +5,20 @@
 
 .calendar {
   background-image: linear-gradient(178deg, rgb(191 197 146), rgb(108 191 192));
-  padding: 16px 0 30px 0;
+  padding: 5px 58px 43px 95px;
 }
 
 .day-of-week {
   display: grid;
   grid-template-columns: repeat(7, 100px);
   place-items: center;
-  height: 60px;
-  column-gap: 34px;
-  margin: 0 155px 20px 148px;
+  height: 64px;
+  column-gap: 49px;
+  margin: 10px 155px 15px 148px;
 }
 
 .day-name {
-  font-size: 17px;
+  font-size: 20px;
   color: #434242;
 }
 
@@ -28,17 +28,17 @@
 
 .month-days {
   display: grid;
-  grid-template-columns: repeat(7, 120px);
-  grid-gap: 20px 15px;
-  margin: 0 151px 0 153px;
+  grid-template-columns: repeat(7, 130px);
+  grid-gap: 27px 20px;
+  margin: 0 133px 0 154px;
 }
 
 .day {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
   border: 0px solid rgb(110, 162, 173);
   border-radius: 50%;
   background-color: rgb(255 255 244 / 49%);
